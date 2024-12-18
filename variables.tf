@@ -1,11 +1,11 @@
 variable "instance_name" {
   description = "Name of the instance"
-  default     = "batashev_infra_tf"
+  default     = "aristov_infra_tf"
 }
 
 variable "key_name" {
   description = "Name of the ssh key"
-  default     = "batashev"
+  default     = "aristov"
 }
 
 variable "image" {
